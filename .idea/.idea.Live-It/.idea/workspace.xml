@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f456a61f-d529-437e-b20b-98d862ed8488" name="Changes" comment="Better code for the keyboard remapping and making the animation for waiting play when stuck after question 5">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Live-It/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csproj.AssemblyReference.cache" afterDir="false" />
+    </list>
+    <list id="0c516af5-5d7f-48bd-a8e6-f7aea451089a" name="don't push" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="92a6782f6f128f3d1cff72f578b4174c59f0e0ed" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/78fe3e0b66cf40fc8dbec96aa3584483952400/e1/8d7f8c9d/PrefabUtility.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9e909a99243c470d9ca24c87d74c47ac8200/fd/35655b5a/VideoPlayer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/a05f37d7a0a34fad9547811820ecb7447c00/31/9741973b/Input.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/bfbc89a04b6b4dd49c3614d03fc31ce846ac00/b5/819b54a8/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f6650f702d1247c2a5311a89b759ba03176200/39/68b0f7b0/IMGUIContainer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/f7237cf7abef49bfbb552d7eb076e422174200/ec/e24b680a/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jdillman/Desktop/live-it/Assets/Code/Script/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jdillman/Desktop/live-it/Assets/Code/Script/InputManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/InputManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/Setup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Script/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/jdillman/Desktop/live-it/Assets/Code/Script/UserScreen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Editor/EventSystem/EventTriggerEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/ToggleGroup.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2XFq62KGGCqzmOkpV9KB8pLxa5f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Attach to Unity Editor.Attach to Unity Editor.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "XThreadsFramesViewSplitterKey": "0.37041286",
+    "do_not_show_Android_plugin_suggestion": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\justi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\justi\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\justi\\AppData\\Local\\Symbols\\src"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\2022.3.20f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\justi\Desktop\Live-It\Live-It -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\justi\Desktop\Live-It\Live-It" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\2022.3.20f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\justi\Desktop\Live-It\Live-It -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\justi\Desktop\Live-It\Live-It" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f456a61f-d529-437e-b20b-98d862ed8488" name="Changes" comment="" />
+      <changelist id="0c516af5-5d7f-48bd-a8e6-f7aea451089a" name="don't push" comment="" />
+      <created>1698234999253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698234999253</updated>
+      <workItem from="1698235000126" duration="827000" />
+      <workItem from="1698239782094" duration="10359000" />
+      <workItem from="1698255064904" duration="111000" />
+      <workItem from="1698766570199" duration="987000" />
+      <workItem from="1700233250251" duration="3655000" />
+      <workItem from="1700503179821" duration="100000" />
+      <workItem from="1701079570938" duration="2021000" />
+      <workItem from="1701271695430" duration="769000" />
+      <workItem from="1701712226836" duration="633000" />
+      <workItem from="1701869111726" duration="9000" />
+      <workItem from="1701869175773" duration="3869000" />
+      <workItem from="1702660826809" duration="3114000" />
+      <workItem from="1702896910457" duration="18182000" />
+      <workItem from="1703085197592" duration="9395000" />
+      <workItem from="1704710044442" duration="3424000" />
+      <workItem from="1704725599443" duration="1273000" />
+      <workItem from="1704790980358" duration="624000" />
+      <workItem from="1704964795573" duration="12934000" />
+      <workItem from="1705053032960" duration="7639000" />
+      <workItem from="1705335852843" duration="856000" />
+      <workItem from="1705482391409" duration="5652000" />
+      <workItem from="1705585940046" duration="6764000" />
+      <workItem from="1705935838789" duration="1273000" />
+      <workItem from="1706002795769" duration="1660000" />
+      <workItem from="1706110628709" duration="1563000" />
+      <workItem from="1706178089365" duration="4626000" />
+      <workItem from="1706265324184" duration="3843000" />
+      <workItem from="1706693316775" duration="2037000" />
+      <workItem from="1706696964321" duration="5434000" />
+      <workItem from="1706717756185" duration="10000" />
+      <workItem from="1706781848927" duration="8015000" />
+      <workItem from="1706867054070" duration="9405000" />
+      <workItem from="1707125308279" duration="5469000" />
+      <workItem from="1707225410587" duration="4228000" />
+      <workItem from="1707232708410" duration="2068000" />
+      <workItem from="1707298047824" duration="6100000" />
+      <workItem from="1707395148704" duration="15725000" />
+      <workItem from="1707815564393" duration="8292000" />
+      <workItem from="1707913513312" duration="8942000" />
+      <workItem from="1707987646899" duration="11754000" />
+      <workItem from="1709026307961" duration="11577000" />
+      <workItem from="1709197989843" duration="755000" />
+      <workItem from="1719844876534" duration="628000" />
+    </task>
+    <task id="LOCAL-00001" summary="update to 2022.3.11 and first version of the loading of UUID ! Base complete but doesn't work even if the function are used and works need to see why">
+      <option name="closed" value="true" />
+      <created>1698255168963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698255168965</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fixing the duplication bug">
+      <option name="closed" value="true" />
+      <created>1698766928756</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698766928756</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Git allo ?">
+      <option name="closed" value="true" />
+      <created>1700236562848</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700236562848</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ayo git ?">
+      <option name="closed" value="true" />
+      <created>1700239811690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700239811690</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2022.3.11">
+      <option name="closed" value="true" />
+      <created>1700240347590</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700240347590</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Set up scene with the Meta package">
+      <option name="closed" value="true" />
+      <created>1701277058148</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701277058148</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Passthough light door test 1">
+      <option name="closed" value="true" />
+      <created>1701872869057</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701872869057</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Camera for experience working">
+      <option name="closed" value="true" />
+      <created>1702675944740</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702675944740</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Up to version 2022.3.15">
+      <option name="closed" value="true" />
+      <created>1702684566740</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702684566740</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Replacing the window with the B button">
+      <option name="closed" value="true" />
+      <created>1703087994577</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703087994577</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Fixing an error logic">
+      <option name="closed" value="true" />
+      <created>1703088638909</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703088638909</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Adding TextMeshPro">
+      <option name="closed" value="true" />
+      <created>1704979087628</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1704979087628</updated>
+    </task>
+    <task id="LOCAL-00013" summary="upgrading to Unity 2022.3.16">
+      <option name="closed" value="true" />
+      <created>1704979174996</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704979174996</updated>
+    </task>
+    <task id="LOCAL-00014" summary="making the screen resizable and movable using hand grab">
+      <option name="closed" value="true" />
+      <created>1704979231209</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1704979231209</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Adding button to Reset anchors and save and load it's scale">
+      <option name="closed" value="true" />
+      <created>1704989686182</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1704989686182</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Refactoring and adding a way to lock the screen in place">
+      <option name="closed" value="true" />
+      <created>1705063257788</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1705063257788</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Fixing Git mistake and making the animation loop">
+      <option name="closed" value="true" />
+      <created>1705503123175</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705503123175</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Preparing for saving the user screen">
+      <option name="closed" value="true" />
+      <created>1705596198949</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1705596198949</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Preparing for saving the user screen (input manager and scene edition)">
+      <option name="closed" value="true" />
+      <created>1705936622017</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1705936622017</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Adding a new prefab managing the UserScreen">
+      <option name="closed" value="true" />
+      <created>1705937095825</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1705937095825</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Setting up UserScreenUI">
+      <option name="closed" value="true" />
+      <created>1706112209712</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1706112209712</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Adding the lock and starting the UIManagement">
+      <option name="closed" value="true" />
+      <created>1706266119792</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706266119792</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Lock UI working properly (2nd edition))">
+      <option name="closed" value="true" />
+      <created>1706632447955</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706632447955</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixing userScreen functionality">
+      <option name="closed" value="true" />
+      <created>1706697934355</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706697934355</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Making the screens more usable">
+      <option name="closed" value="true" />
+      <created>1706697981901</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706697981901</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Fixing anchor save">
+      <option name="closed" value="true" />
+      <created>1706886527315</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706886527315</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Making the text animation longer">
+      <option name="closed" value="true" />
+      <created>1706886668514</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1706886668514</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Making the keyboard works">
+      <option name="closed" value="true" />
+      <created>1706886712885</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706886712885</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Adding the TV model">
+      <option name="closed" value="true" />
+      <created>1706889972418</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1706889972418</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Commenting and adding a new scene to serve has waiting screen before starting the exp">
+      <option name="closed" value="true" />
+      <created>1707129073521</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1707129073521</updated>
+    </task>
+    <task id="LOCAL-00031" summary="UI test for main scene + importing audio and video">
+      <option name="closed" value="true" />
+      <created>1707150349890</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1707150349890</updated>
+    </task>
+    <task id="LOCAL-00032" summary="adding the voice and fixing the video switching">
+      <option name="closed" value="true" />
+      <created>1707232779388</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1707232779388</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fixing video to enable transcoding fixing build problems">
+      <option name="closed" value="true" />
+      <created>1707324050396</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1707324050396</updated>
+    </task>
+    <task id="LOCAL-00034" summary="updating UserScreenBackground.png and small change in how the keyboard behave">
+      <option name="closed" value="true" />
+      <created>1707324148320</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1707324148320</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Unity update">
+      <option name="closed" value="true" />
+      <created>1707324379299</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1707324379299</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Trying to constraint rotation">
+      <option name="closed" value="true" />
+      <created>1707324540016</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707324540016</updated>
+    </task>
+    <task id="LOCAL-00037" summary="remapping of the keyboard to fit the AZERTY standard">
+      <option name="closed" value="true" />
+      <created>1707411576789</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1707411576789</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Main scene ready">
+      <option name="closed" value="true" />
+      <created>1707832552642</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1707832552642</updated>
+    </task>
+    <task id="LOCAL-00039" summary="All type of small fix">
+      <option name="closed" value="true" />
+      <created>1707920107856</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1707920107856</updated>
+    </task>
+    <task id="LOCAL-00040" summary="keyboardFix">
+      <option name="closed" value="true" />
+      <created>1707920725809</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1707920725809</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Freeze when validate answer done !">
+      <option name="closed" value="true" />
+      <created>1707927703958</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1707927703958</updated>
+    </task>
+    <task id="LOCAL-00042" summary="adjusting exp with prenom and pronom">
+      <option name="closed" value="true" />
+      <created>1707991773007</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1707991773007</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Debug and new voices !">
+      <option name="closed" value="true" />
+      <created>1708006109674</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1708006109674</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Debug !">
+      <option name="closed" value="true" />
+      <created>1708009530944</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1708009530944</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Last keyboard fix WTF">
+      <option name="closed" value="true" />
+      <created>1708080658217</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1708080658217</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Adding questions and bug fixing">
+      <option name="closed" value="true" />
+      <created>1708086532853</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1708086532853</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Updating to Unity 2022.3.20">
+      <option name="closed" value="true" />
+      <created>1709198215578</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1709198215578</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Better code for the keyboard remapping and making the animation for waiting play when stuck after question 5">
+      <option name="closed" value="true" />
+      <created>1709198447665</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1709198447665</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fixing userScreen functionality" />
+    <MESSAGE value="Making the screens more usable" />
+    <MESSAGE value="Fixing anchor save" />
+    <MESSAGE value="Making the text animation longer" />
+    <MESSAGE value="Making the keyboard works" />
+    <MESSAGE value="Adding the TV model" />
+    <MESSAGE value="Commenting and adding a new scene to serve has waiting screen before starting the exp" />
+    <MESSAGE value="UI test for main scene + importing audio and video" />
+    <MESSAGE value="adding the voice and fixing the video switching" />
+    <MESSAGE value="Fixing video to enable transcoding fixing build problems" />
+    <MESSAGE value="updating UserScreenBackground.png and small change in how the keyboard behave" />
+    <MESSAGE value="Unity update" />
+    <MESSAGE value="Trying to constraint rotation" />
+    <MESSAGE value="remapping of the keyboard to fit the AZERTY standard" />
+    <MESSAGE value="Main scene ready" />
+    <MESSAGE value="All type of small fix" />
+    <MESSAGE value="keyboardFix" />
+    <MESSAGE value="Freeze when validate answer done !" />
+    <MESSAGE value="adjusting exp with prenom and pronom" />
+    <MESSAGE value="Debug and new voices !" />
+    <MESSAGE value="Debug !" />
+    <MESSAGE value="Last keyboard fix WTF" />
+    <MESSAGE value="Adding questions and bug fixing" />
+    <MESSAGE value="Updating to Unity 2022.3.20" />
+    <MESSAGE value="Better code for the keyboard remapping and making the animation for waiting play when stuck after question 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Better code for the keyboard remapping and making the animation for waiting play when stuck after question 5" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#System.Guid" memberName="_k" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="experienceScreen" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
